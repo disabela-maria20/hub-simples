@@ -1,0 +1,178 @@
+.box-busca-programacao {
+    position: relative;
+    width: 100%;
+    z-index: 10;
+    background-color: $background_color_busca_cidade;
+    padding: 39px 23px;
+    .text-buscar-prog {
+        margin: 15px 10px;
+    }
+    .combos-busca {
+        width: 58.5vw;
+        display: flex;
+        flex-direction: row;
+        select {
+            margin-left: 10px;
+        }
+        button {
+            margin-left: 10px;
+        }
+    }
+    select {
+        color: #2d2d2d;
+        font-size: 15px;
+        margin-left: 10px;
+        padding: 5px 0 5px 10px;
+        border: 1px solid #fff !important;
+        border-radius: 8px;
+    }
+}
+
+.btn-inative {
+    color: $color_text_button_buscar_off;
+    background-color: #292929;
+    border-color: #281817;
+    pointer-events: none;
+}
+
+.btn-active {
+    color: $color_text_button_buscar;
+    background-color: $btn_buscar_active_background;
+    border-color: $btn_buscar_active_background;
+    &:hover {
+        background-color: $btn_active_background_colorHover;
+        border-color: $btn_active_background_colorHover;
+    }
+}
+
+@media(max-width:1024px) {
+    .box-busca-programacao {
+        position: relative;
+        width: 100%;
+        z-index: 10;
+        background-color: $background_color_busca_cidade;
+        padding: 22px 27px;
+        .combos-busca {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            height: 34px;
+            select {
+                margin: 10px 0;
+            }
+            button {
+                margin-left: 0px;
+                max-width: 60%;
+                padding: 6px;
+                font-size: 14px;
+            }
+            select {
+                color: #2d2d2d;
+                font-size: 15px;
+                margin-left: 10px;
+                padding: 5px 0 5px 10px;
+                border: 1px solid #fff !important;
+                border-radius: 8px;
+            }
+        }
+    }
+    .box-busca-programacao-mobile {
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+        background-color: $background_color_busca_cidade;
+        padding: 22px 27px;
+        margin-top: -222px;
+        .text-buscar-prog {
+            margin-bottom: 15px;
+        }
+        .combos-busca {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 34px;
+            select {
+                margin: 10px 0;
+            }
+            button {
+                margin-left: 0px;
+                max-width: 60%;
+                padding: 6px;
+                font-size: 14px;
+                color: $color_text_button_buscar;
+            }
+            select {
+                color: #2d2d2d;
+                font-size: 15px;
+                width: 37%;
+                margin-left: 0;
+                padding: 5px 0 5px 10px;
+                border: 1px solid #fff !important;
+                border-radius: 8px;
+                /* needed */
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                /* SVG background image */
+                background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='100' fill='%202020'><polygon points='0,0 100,0 50,50'/></svg>") no-repeat;
+                background-size: 12px;
+                background-position: calc(100% - 10px) center;
+                background-repeat: no-repeat;
+                background-color: #efefef;
+            }
+        }
+    }
+}
+
+@media(max-width:767px) {
+    .box-busca-programacao {
+        position: relative;
+        width: 100%;
+        z-index: 10;
+        background-color: $background_color_busca_cidade;
+        padding: 18px 15px;
+        margin-top: 0px;
+        .text-buscar-prog {
+            margin-bottom: 15px;
+            font-size: 12px;
+        }
+        .combos-busca {
+            width: 90vw;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 40px;
+            button {
+                margin-left: 0px;
+                max-width: 60%;
+                padding: 10px 8px;
+                font-size: 10px;
+                height: 39px;
+                border-radius: 8px;
+                color: $color_text_button_buscar_hover;
+            }
+            select {
+                color: #2d2d2d;
+                font-size: 15px;
+                margin: 10px 10px;
+                padding: 5px 0 5px 10px;
+                border: 1px solid #fff !important;
+                border-radius: 8px;
+                max-width: 35%;
+            }
+        }
+    }
+}
+
+.container-programacao {
+    z-index: 0;
+}
+
+.btn.btn-danger:focus {
+    background-color: rgb(238, 0, 255);
+}

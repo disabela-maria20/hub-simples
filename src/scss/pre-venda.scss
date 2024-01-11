@@ -1,0 +1,237 @@
+#pre-venda{
+
+    a { text-decoration: none; }
+
+    height: 100vh;
+
+    color: #fff;
+    background-image: url("~@/assets/bg-desk.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .text-data{
+        font-size: 50px;
+        text-shadow: 1px 1px 0px #CE0000;
+    }
+
+    .btns-datas{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+        .data{
+            text-align: center;
+            min-width: 270px;
+            margin: 20px;
+            padding: 20px 30px;
+            background-color: #b32025;
+            border-radius: 15px;
+            color: #fff;
+            &:hover{
+                background-color: #525252;
+                color: springgreen;
+                text-decoration: none!important;
+            }
+            .tipo-prog{
+                font-size: 30px;
+                font-weight: 600;
+
+            }
+        }
+
+    }
+
+    .logo{
+        margin-top: 35px;
+        text-align: center;
+        img{
+            max-width: 80%;
+        }
+    }
+
+    .in-cinema{
+        margin-top: 30px;
+        font-size: 25px;
+    }
+
+    .credits{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+
+
+        img{
+            max-width: 15%;
+            margin: 10px;
+        }
+    }
+
+}
+
+
+@media (max-width: 1024px) {
+
+    #pre-venda{
+        height: 100vh;
+        min-height: 800px;
+        color: #fff;
+        background-image: url("~@/assets/bg-mobile.jpg");
+        background-size: cover;
+        background-position: center center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .text-data{
+            font-size: 35px;
+        }
+    
+        .btns-datas{
+    
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+            .data{
+                text-align: center;
+                min-width: 200px;
+                margin: 30px 10px;
+                padding: 10px 20px;
+                background-color: #b32025;
+                border-radius: 15px;
+                &:hover{
+                    background-color: seagreen;
+                }
+                .tipo-prog{
+                    font-size: 23px;
+                    font-weight: 600;
+    
+                }
+            }
+    
+        }
+    
+        .logo{
+            margin-top: 35px;
+            text-align: center;
+            img{
+                max-width: 80%;
+            }
+        }
+    
+        .in-cinema{
+            margin-top: 30px;
+            font-size: 25px;
+        }
+
+        .credits{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+    
+            img{
+                max-width: 90%;
+                margin: 10px;
+            }
+        }
+    
+    }
+
+}
+
+
+
+
+@media (max-width: 767px) {
+
+    #pre-venda{
+        height: 100vh;
+        padding:60px 15px;
+        color: #fff;
+        background-image: url("~@/assets/bg-mobile.jpg");
+        background-size: cover;
+        background-position: center center;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+    
+        .text-data{
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+    
+        .btns-datas{
+    
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+    
+            .data{
+                min-width: 200px;
+                text-align: center;
+                margin: 10px 10px;
+                padding: 10px 20px;
+                background-color: #b32025;
+                border-radius: 15px;
+                &:hover{
+                    background-color: seagreen;
+                }
+                .tipo-prog{
+                    font-size: 20px;
+                    font-weight: 600;
+    
+                }
+            }
+    
+        }
+    
+        .logo{
+            margin-top: 20px;
+            text-align: center;
+            img{
+                max-width: 60%;
+            }
+        }
+    
+        .in-cinema{
+            margin-top: 18px;
+            font-size: 15px;
+        }
+
+        .credits{
+            margin-top: 10px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+    
+    
+            img{
+          
+                margin: 1px 10px;
+                max-width: 11%;
+            }
+        }
+    
+    }
+
+}

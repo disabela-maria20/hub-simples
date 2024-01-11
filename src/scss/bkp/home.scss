@@ -1,0 +1,438 @@
+.topo_home{
+
+    position: relative;
+
+    .widget_topo{
+        position: relative;
+        .logo{
+            position: absolute;
+            z-index: 200;
+            margin-top: 50px;
+            margin-left: calc(100% / 10);
+            img{
+                max-width: 45%;
+            }
+        }
+
+        .destaques{
+            position: relative;
+            .infos_destaque{
+                width: 100%;
+                padding: 10vw;
+                position: absolute;
+                z-index: 500;
+                //margin-left: calc(100% / 10);
+                margin-top: -22%;
+                color: #fff;
+                .label-titulo{
+                    font-size: 30px;
+                    line-height: 1px;
+                    font-weight: 500;
+                    color: $color_destaque;
+                    text-shadow: 2px 2px 8px #3e3e3e;
+                }
+                .titulo{
+                    font-size: 80px;
+                    font-weight: 800;
+                    text-shadow: 2px 2px 8px #3e3e3e;
+                }
+                .sub-titulo{
+                    font-size: 30px;
+                    font-weight: 100;
+                    line-height: 20px;
+                    text-shadow: 2px 2px 8px #3e3e3e;
+                }
+            }
+        }
+    }
+
+}
+
+.filmes-destaque{
+
+    padding-top: 10px;
+    background-image: url('~@/assets/bg-section-prog.png');
+    //background-position-y: bottom -180px!important;
+    background-position: bottom;
+    background-repeat: repeat-x;
+    .titulo1-home{
+        font-size: 35px;
+        font-weight: 100;
+        letter-spacing: 5px;
+        color: $color_destaque;
+        margin: 60px 0;
+        text-align: center;
+    }
+
+    
+    .poster_filme{
+        
+        position: relative;
+
+
+
+        .status-filme-destaque{
+            position: absolute;
+            top: 0;
+
+        background-color: $color_destaque2;
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        }
+
+        .content-filme{
+            background-image: url('~@/assets/bg-bottom-black.png');
+            background-position-y: bottom -200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            color: #fff;
+            position: absolute;
+            z-index: 1000;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+            min-height: 80%;
+            .titulo-filmes-destaque{
+                font-size: 35px;
+                letter-spacing: 2px;
+                font-weight: 800;
+                line-height: 35px;
+                margin-bottom: 10px;
+            }
+            .distribuidor-filme{
+                font-size: 20px;
+                letter-spacing: 2px;
+                font-weight: 500;
+                line-height: 35px;
+                margin-bottom: 15px;
+                color: $color_destaque2;
+            }
+            .btn-action{
+                width: 100%;
+                margin-bottom: 10px;
+                font-size: 30px;
+                font-weight: 700;
+                color: #fff;
+                padding: 5px 12px;
+                text-align: center;
+
+                background-color: $color_destaque2;
+    
+            }
+        }
+    }
+
+
+
+}
+
+section.programacao-home{
+    
+    background-color:#1274d1;
+
+    .titulo-prog-home{
+        padding: 50px 0;
+        font-size: 30px;
+        font-weight: 800;
+        letter-spacing: 4px;
+        color: #fff;
+        text-align: center;
+     img{
+         max-width: 28%;
+     }
+    }
+
+}
+
+@media (max-width: 1380px) {
+
+    .topo_home{
+
+        position: relative;
+    
+        .widget_topo{
+            position: relative;
+            .logo{
+                position: absolute;
+                z-index: 200;
+                margin-top: 50px;
+                margin-left: calc(100% / 10);
+                img{
+                    max-width: 25%;
+                }
+            }
+    
+            .destaques{
+                position: relative;
+                .infos_destaque{
+                    width: 100%;
+                    padding: 10vw;
+                    position: absolute;
+                    z-index: 500;
+                    //margin-left: calc(100% / 10);
+                    margin-top: -24%;
+                    color: #fff;
+                    .label-titulo{
+                        font-size: 20px;
+                        line-height: 1px;
+                        font-weight: 500;
+                        color: $color_destaque;
+                        text-shadow: 2px 2px 8px #3e3e3e;
+                    }
+                    .titulo{
+                        font-size: 50px;
+                        font-weight: 800;
+                        text-shadow: 2px 2px 8px #3e3e3e;
+                    }
+                    .sub-titulo{
+                        font-size: 20px;
+                        font-weight: 100;
+                        line-height: 20px;
+                        text-shadow: 2px 2px 8px #3e3e3e;
+                    }
+                }
+            }
+        }
+    
+    }
+    
+    .filmes-destaque{
+    
+        padding-top: 10px;
+        background-image: url('~@/assets/bg-section-prog.png');
+        background-position-y: bottom -180px;
+        background-repeat: repeat-x;
+        .titulo1-home{
+            font-size: 35px;
+            font-weight: 100;
+            letter-spacing: 5px;
+            color: $color_destaque;
+            margin: 60px 0;
+            text-align: center;
+        }
+    
+        
+        .poster_filme{
+            
+            position: relative;
+    
+    
+    
+            .status-filme-destaque{
+                position: absolute;
+                top: 0;
+    
+            background-color: $color_destaque2;
+            width: 100%;
+            text-align: center;
+            font-size: 30px;
+            font-weight: 700;
+            color: #fff;
+            }
+    
+            .content-filme{
+                background-image: url('~@/assets/bg-bottom-black.png');
+                background-position-y: bottom -200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                color: #fff;
+                position: absolute;
+                z-index: 1000;
+                padding: 20px;
+                bottom: 0;
+                width: 100%;
+                min-height: 80%;
+                .titulo-filmes-destaque{
+                    font-size: 35px;
+                    letter-spacing: 2px;
+                    font-weight: 800;
+                    line-height: 35px;
+                    margin-bottom: 10px;
+                }
+                .distribuidor-filme{
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                    font-weight: 500;
+                    line-height: 35px;
+                    margin-bottom: 15px;
+                    color: $color_destaque2;
+                }
+                .btn-action{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    font-size: 30px;
+                    font-weight: 700;
+                    color: #fff;
+                    padding: 5px 12px;
+                    text-align: center;
+    
+                    background-color: $color_destaque2;
+        
+                }
+            }
+        }
+    
+    
+    
+    }
+    
+    section.programacao-home{
+        
+        background-color:#0a71ce;
+    
+        .titulo-prog-home{
+            padding: 50px 0;
+            font-size: 30px;
+            font-weight: 800;
+            letter-spacing: 4px;
+            color: #fff;
+            text-align: center;
+         img{
+             max-width: 28%;
+         }
+        }
+    
+    }
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .topo_home{
+
+        position: relative;
+    
+        .widget_topo{
+            position: relative;
+            .logo{
+                position: absolute;
+                z-index: 200;
+                margin-top: 30px;
+                margin-left: calc(100% / 6);
+                img{
+                    max-width: 30%;
+                }
+            }
+    
+            .destaques{
+                position: relative;
+                .infos_destaque{
+                    position: absolute;
+                    z-index: 500;
+                    margin-left: calc(100% / 12);
+                    margin-top: -180px;
+                    color: #fff;
+                    .label-titulo{
+                        font-size: 20px;
+                        line-height: 1px;
+                        font-weight: 500;
+                        color: $color_destaque;
+                        text-shadow: 2px 2px 8px #3e3e3e;
+                    }
+                    .titulo{
+                        font-size: 40px;
+                        font-weight: 800;
+                        text-shadow: 2px 2px 8px #3e3e3e;
+                    }
+                    .sub-titulo{
+                        font-size: 20px;
+                        font-weight: 100;
+                        line-height: 20px;
+                        text-shadow: 2px 2px 8px #3e3e3e;
+                    }
+                }
+            }
+        }
+    
+    }
+
+    .filmes-destaque{
+
+        padding-top: 10px;
+        background-image: url('~@/assets/bg-section-prog.png');
+        background-position: bottom ;
+        background-repeat: repeat-x;
+        .titulo1-home{
+            font-size: 25px;
+            font-weight: 100;
+            letter-spacing: 5px;
+            color: $color_destaque;
+            margin: 30px 0;
+            text-align: center;
+        }
+    
+        
+        .poster_filme{
+            
+            position: relative;
+    
+    
+    
+            .status-filme-destaque{
+                position: absolute;
+                top: 0;
+    
+            background-color: $color_destaque2;
+            width: 100%;
+            text-align: center;
+            font-size: 25px;
+            font-weight: 700;
+            color: #fff;
+            }
+    
+            .content-filme{
+                background-image: url('~@/assets/bg-bottom-black.png');
+                background-position-y: bottom -200px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                color: #fff;
+                position: absolute;
+                z-index: 1000;
+                padding: 20px;
+                bottom: 0;
+                width: 100%;
+                min-height: 80%;
+                .titulo-filmes-destaque{
+                    font-size: 35px;
+                    letter-spacing: 1px;
+                    font-weight: 800;
+                    line-height: 35px;
+                    margin-bottom: 10px;
+                }
+                .distribuidor-filme{
+                    font-size: 20px;
+                    letter-spacing: 2px;
+                    font-weight: 500;
+                    line-height: 35px;
+                    margin-bottom: 15px;
+                    color: $color_destaque2;
+                }
+                .btn-action{
+                    width: 100%;
+                    margin-bottom: 10px;
+                    font-size: 25px;
+                    font-weight: 700;
+                    color: #fff;
+                    padding: 5px 12px;
+                    text-align: center;
+    
+                    background-color: $color_destaque2;
+        
+                }
+            }
+        }
+    
+    
+    
+    }
+
+
+}

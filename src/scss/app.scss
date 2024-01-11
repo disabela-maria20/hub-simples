@@ -1,0 +1,27 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic');
+
+// Variables
+@import 'variaveis';
+@import 'home';
+@import 'header';
+@import 'footer';
+@import 'style-programacao';
+@import 'pre-venda';
+@import 'style-filterestadocidade';
+@import 'spinner';
+// Bootstrap
+//@import '~bootstrap/scss/bootstrap';
+
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.4s;
+  transition-property: opacity;
+  transition-timing-function: ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+

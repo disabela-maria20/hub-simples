@@ -1,0 +1,105 @@
+.consent_cookie {
+    background-color: #000;
+    position: fixed;
+    z-index: 20;
+    padding: 5px;
+    width: 100%;
+}
+
+.header_sony {
+    background-color: #181818;
+    position: fixed;
+    z-index: 20;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    width: 100%;
+    .logo_sony_pictures {
+        max-width: 25%;
+        padding: 0 8px;
+        img {
+            max-width: 40%;
+        }
+    }
+    .logo_sony {
+        text-align: right;
+        padding: 0 8px;
+        width: 30%;
+        max-width: 10%;
+        img {
+            max-width: 45%;
+        }
+    }
+}
+
+.header {
+    background-color: rgb(14, 37, 213);
+    height: 30px;
+    width: 100%;
+    position: fixed;
+}
+
+@media (max-width: 1024px) {
+    .header_sony {
+        background-color: #000;
+        position: fixed;
+        z-index: 20;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        width: 100%;
+        .logo_sony_pictures {
+            max-width: 45%;
+            padding: 0 8px;
+            img {
+                max-width: 40%;
+            }
+        }
+        .logo_sony {
+            text-align: right;
+            padding: 0 8px;
+            width: 25%;
+            max-width: 63%;
+            img {
+                max-width: 60%;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .header_sony {
+        background-color: #000;
+        position: fixed;
+        z-index: 20;
+        height: 35px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px;
+        width: 100%;
+        .logo_sony_pictures {
+            max-width: 75%;
+            padding: 0 8px;
+            img {
+                max-width: 40%;
+            }
+        }
+        .logo_sony {
+            text-align: right;
+            padding: 0 8px;
+            width: 41%;
+            max-width: 65%;
+            img {
+                max-width: 86%;
+            }
+        }
+    }
+}
