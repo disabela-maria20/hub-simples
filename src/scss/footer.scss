@@ -10,6 +10,8 @@
     font-size: 9px;
     color: #ccc;
     // padding-top: 20px;
+    display: flex;
+    align-items: center;
     .links_footer {
         display: flex;
         flex-direction: row;
@@ -95,6 +97,8 @@
         background-color: #242424;
         font-size: 9px;
         color: #ccc;
+        display: flex;
+        align-items: center;
         .links_footer {
             display: flex;
             flex-direction: row;
@@ -160,6 +164,8 @@
         background-color: #242424;
         font-size: 9px;
         color: #ccc;
+        display: flex;
+        align-items: center;
         .links_footer {
             display: flex;
             flex-direction: row;
