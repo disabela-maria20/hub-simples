@@ -40,6 +40,7 @@
 
           <div class="links_footer">
             <div class="cp"> © 2024 CALIFORNIA FILMES FILMS</div>
+            <img src="./assets/logos-cred/logos.png" alt="">
             <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
               Acessibilidade
             </div>
