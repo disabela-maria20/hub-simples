@@ -29,7 +29,7 @@
     <!-- Google Tag Manager -->
 
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start':
@@ -58,11 +58,39 @@
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
     <title> GARRA DE FERRO </title>
 
-    <meta name="description" content='Nora e Hae Sung, dois amigos de infância profundamente conectados, se separam depois que a família de Nora decide sair da Coréia do Sul. Vinte anos depois, eles se reencontram em Nova York para uma semana fatídica enquanto confrontam noções de destino, amor e as escolhas que fazem uma vida.'
-    />
+    <meta name="description"
+        content='Nora e Hae Sung, dois amigos de infância profundamente conectados, se separam depois que a família de Nora decide sair da Coréia do Sul. Vinte anos depois, eles se reencontram em Nova York para uma semana fatídica enquanto confrontam noções de destino, amor e as escolhas que fazem uma vida.' />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <!-- Meta Pixel Code -->
 
+    <script>
+
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            };
+
+            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+
+            n.queue = []; t = b.createElement(e); t.async = !0;
+
+            t.src = v; s = b.getElementsByTagName(e)[0];
+
+            s.parentNode.insertBefore(t, s)
+        }(window, document, 'script',
+
+            'https://connect.facebook.net/en_US/fbevents.js');
+
+        fbq('init', '907050880863614');
+
+        fbq('track', 'PageView');
+
+    </script>
+    <!-- End Meta Pixel Code -->
 
 </head>
 
@@ -70,22 +98,19 @@
 
 
     <noscript>
-      <strong
-        >Lamentamos, mas este site não funciona corretamente sem o JavaScript
-        habilitado. Por favor, habilite para Prosseguir.</strong
-      >
+        <strong>Lamentamos, mas este site não funciona corretamente sem o JavaScript
+            habilitado. Por favor, habilite para Prosseguir.</strong>
     </noscript>
     <div id="app"></div>
 
-
-
     <!-- Google Tag Manager (noscript) -->
 
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGNMWRJZ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGNMWRJZ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- End Google Tag Manager (noscript) -->
-
+    <noscript><img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=907050880863614&ev=PageView&noscript=1" /></noscript>
 </body>
 
 </html>
