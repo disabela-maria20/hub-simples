@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/garradeferro/',
+    publicPath: '/baby/',
 };

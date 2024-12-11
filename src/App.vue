@@ -28,7 +28,8 @@
           <div class="row cred-logo">
             <p>Acessibilidade: a exibição deste filme conta com suporte do aplicativo Movie Reading - criado para
               proporcionar acessibilidade completa disponibilizando os recursos da Audiodescrição, Legendas e LIBRAS -
-              Língua Brasileira de Sinais. <a href="https://www.moviereadingbrasil.com.br/" target="blank">Saiba mais</a>
+              Língua Brasileira de Sinais. <a href="https://www.moviereadingbrasil.com.br/" target="blank">Saiba
+                mais</a>
             </p>
 
           </div>
@@ -39,7 +40,7 @@
         <div class="container">
 
           <div class="links_footer">
-            <div class="cp"> © 2024 CALIFORNIA FILMES FILMS</div>
+            <div class="cp"> © 2024 VITRINE FILMES</div>
             <img src="./assets/logos-cred/logos.png" alt="">
             <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
               Acessibilidade
@@ -95,5 +96,3 @@ export default {
 </script>
 
 <style src="./scss/app.scss" lang="scss" />
-
-
