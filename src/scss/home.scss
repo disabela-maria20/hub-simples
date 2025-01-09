@@ -21,7 +21,7 @@ body {
     color: #fff;
     width: 100%;
     align-items: flex-start;
-    height: 100%!important;
+    height: 100% !important;
     background-color: #202020;
 }
 
@@ -86,7 +86,7 @@ body {
         color: #fff;
         width: 100%;
         align-items: flex-start;
-        height: 100%!important;
+        height: 100% !important;
         background-color: #202020;
     }
     .poster {
@@ -188,7 +188,7 @@ body {
         color: #fff;
         width: 100%;
         align-items: flex-start;
-        height: 100%!important;
+        height: 100% !important;
         background-color: #202020;
     }
     .poster-mobile {
@@ -372,7 +372,11 @@ $popper-background-color: $color_tooltip !default;
         flex-direction: row;
         align-items: center;
         width: 100%;
-        height: 100%!important;
+        height: 100% !important;
         padding: 10px 10px 10px;
     }
+}
+
+.cp {
+    color: #305fac;
 }

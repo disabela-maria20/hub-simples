@@ -1,16 +1,16 @@
 $color_barra: #201c17;
-$color_destaque: #cb1d18;
+$color_destaque: #fece0c;
 $background_color_busca_cidade: #22201d;
-$color_borda_datas: #14332f;
+$color_borda_datas: darken(#fece0c, 10%);
 $color_tooltip: #2c2704;
 // Programação
-$color_text_datas: #cb1d18;
-$color_horario_bg: #cb1d18;
+$color_text_datas: #fece0c;
+$color_horario_bg: #fece0c;
 $color_horario_bg_hover: #ffffff;
-$color_text_horario: #cb1d18;
+$color_text_horario: #fece0c;
 // Botão Buscar
-$btn_active_background_colorHover: #14332f;
-$btn_buscar_active_background: #cb1d18;
+$btn_active_background_colorHover: darken(#fece0c, 10%);
+$btn_buscar_active_background: #fece0c;
 $color_text_button_buscar: #ffffff;
 $color_text_button_buscar_hover: #ffffff;
 $color_text_button_buscar_off: #e2e2e2;
