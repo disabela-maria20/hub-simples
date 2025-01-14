@@ -23,7 +23,7 @@
         <router-view></router-view>
       </transition>
 
-      <div id="creditos" @click="carregar()" class="cred_logos">
+      <!-- <div id="creditos" @click="carregar()" class="cred_logos">
         <div class="container">
           <div class="row cred-logo">
             <p>Acessibilidade: a exibição deste filme conta com suporte do aplicativo Movie Reading - criado para
@@ -34,7 +34,7 @@
 
           </div>
         </div>
-      </div>
+      </div> -->
 
       <div class="footer_wrapper">
         <div class="container">
@@ -42,9 +42,9 @@
           <div class="links_footer">
             <div class="cp"> © 2024 VITRINE FILMES</div>
             <img src="./assets/logos-cred/logos.png" alt="">
-            <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
-              Acessibilidade
-            </div>
+            <a href="https://gomav.co/m-load/" class="btn-creditos" :class="{ credito_ativo: credito_ativo }">
+              Mobiload
+            </a>
           </div>
         </div>
       </div>
