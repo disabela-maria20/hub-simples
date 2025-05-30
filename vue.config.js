@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/umpaiparalily/',
+    publicPath: '/saneamentobasico/',
 };

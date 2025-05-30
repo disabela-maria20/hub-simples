@@ -39,7 +39,7 @@
       <div class="footer_wrapper">
         <div class="container">
           <div class="links_footer">
-            <div class="cp"> © 2025 SESSÃO SYNAPSE DISTRIBUTION</div>
+            <div class="cp"> © 2025 SESSÃO VITRINE PETROBRAS</div>
             <!-- <img src="./assets/logos-cred/logos.png" alt=""> -->
             <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
               Acessibilidade

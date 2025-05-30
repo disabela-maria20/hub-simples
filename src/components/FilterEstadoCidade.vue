@@ -22,7 +22,7 @@
                 <button class="btn btn-md my-auto" :class="btn ? 'btn-active' : 'btn-inative'"
                     @click.prevent="set_prog()">Pesquisar</button>
             </div>
-            <button class="btn-assista" @click="toggleOpen" type="button">Assita em casa</button>
+            <!-- <button class="btn-assista" @click="toggleOpen" type="button">Assita em casa</button>
             <div class="open" v-if="isOpen">
                 <a href="http://">
                     <img src="@/assets/AppleTV.png" alt="AppleTV">
@@ -33,7 +33,7 @@
                 <a href="http://">
                     <img src="@/assets/PrimeVideo.png" alt="PrimeVideo">
                 </a>
-            </div>
+            </div> -->
         </div>
 
         <div v-if="!filme" class="video-wrapper embed-responsive embed-responsive-16by9">
