@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html lang="pt-BR" class="h-100">
-
-<head>
-
+  <head>
     <script>
-        dataLayer = [{
-            'page_title': 'O ÚLTIMO AZUL',
-            'property_title': 'O ÚLTIMO AZUL',
-            'content_type': 'Microsite',
-            'site_country': 'BR',
-        }];
+      dataLayer = [
+        {
+          page_title: "O LOBO ENTRE OS CISNES",
+          property_title: "O LOBO ENTRE OS CISNES",
+          content_type: "Microsite",
+          site_country: "BR",
+        },
+      ];
     </script>
 
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-CZYED2Y9QR"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-CZYED2Y9QR"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'G-CZYED2Y9QR');
+      gtag("config", "G-CZYED2Y9QR");
     </script>
-
 
     <!-- Google Tag Manager -->
 
     <script>
-        (function (w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start':
-
-                    new Date().getTime(),
-                event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0],
-
-                j = d.createElement(s),
-                dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-
-                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-
-        })(window, document, 'script', 'dataLayer', 'GTM-PGNMWRJZ');
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({
+          "gtm.start": new Date().getTime(),
+          event: "gtm.js",
+        });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PGNMWRJZ");
     </script>
 
     <!-- End Google Tag Manager -->
@@ -56,61 +52,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <link rel="icon" href="<%= BASE_URL %>favicon.ico" />
-    <title>O ÚLTIMO AZUL</title>
+    <title>O LOBO ENTRE OS CISNES</title>
 
-    <meta name="description"
-        content='Dirigido por Gabriel Mascaro (“Boi Neon” e “Divino Amor”), o longa-metragem acompanha a jornada de Tereza, uma mulher de 77 anos que recebe uma ordem para exílio compulsório - prática comum num Brasil onde o governo transfere idosos para colônias habitacionais a fim de “desfrutarem” de seus últimos anos. Antes de partir, ela embarca em uma jornada pelos rios da Amazônia para realizar um último desejo que pode mudar seu destino para sempre.' />
+    <meta
+      name="description"
+      content="Um filme emocionante sobre o encontro de Thiago (interpretado por Matheus Abreu), um jovem rebelde, e Dino (Darío Grandinetti), um mestre rigoroso. Uma história sobre quem ensina e quem aprende, mas também sobre tudo o que existe no meio do caminho."
+    />
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
     <!-- Meta Pixel Code -->
 
     <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
 
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
 
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
 
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
 
-            n.queue = []; t = b.createElement(e); t.async = !0;
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
 
-            t.src = v; s = b.getElementsByTagName(e)[0];
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
 
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
+      fbq("init", "907050880863614");
 
-            'https://connect.facebook.net/en_US/fbevents.js');
-
-        fbq('init', '907050880863614');
-
-        fbq('track', 'PageView');
-
+      fbq("track", "PageView");
     </script>
     <!-- End Meta Pixel Code -->
+  </head>
 
-</head>
-
-<body class="d-flex flex-column">
-
-
+  <body class="d-flex flex-column">
     <noscript>
-        <strong>Lamentamos, mas este site não funciona corretamente sem o JavaScript
-            habilitado. Por favor, habilite para Prosseguir.</strong>
+      <strong
+        >Lamentamos, mas este site não funciona corretamente sem o JavaScript
+        habilitado. Por favor, habilite para Prosseguir.</strong
+      >
     </noscript>
     <div id="app"></div>
 
     <!-- Google Tag Manager (noscript) -->
 
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGNMWRJZ" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PGNMWRJZ"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
 
     <!-- End Google Tag Manager (noscript) -->
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=907050880863614&ev=PageView&noscript=1" /></noscript>
-</body>
-
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=907050880863614&ev=PageView&noscript=1"
+    /></noscript>
+  </body>
 </html>
