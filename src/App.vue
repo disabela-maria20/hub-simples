@@ -28,7 +28,7 @@
           <div class="row cred-logo">
             <p>Acessibilidade: a exibição deste filme conta com suporte do aplicativo Movie Reading - criado para
               proporcionar acessibilidade completa disponibilizando os recursos da Audiodescrição, Legendas e LIBRAS -
-              Língua Brasileira de Sinais. <a href="https://www.moviereadingbrasil.com.br/" target="blank">Saiba
+              Língua Brasileira de Sinais. <a href="https://gomav.co/m-load/" target="blank">Saiba
                 mais</a>
             </p>
 
