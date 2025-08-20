@@ -1,7 +1,7 @@
 .programacao {
     width: 100%;
     padding: 1px 0px;
-    background-color: #000;
+    background-color: #4291c7;
     hr {
         margin-top: 2rem;
         margin-bottom: 2em;
@@ -66,7 +66,7 @@
     .programacao {
         width: 100%;
         padding: 0px 0px;
-        background-color: #000;
+        background-color: #4291c7;
         hr {
             margin-top: 2rem;
             margin-bottom: 2em;
@@ -121,7 +121,7 @@
     .programacao {
         width: 100%;
         padding: 0px 0px;
-        background-color: #000;
+        background-color: #4291c7;
         hr {
             margin-top: 2rem;
             margin-bottom: 2em;
@@ -243,10 +243,10 @@ div:target {
 
 .active_data {
     background-color: $color_destaque;
-    color: #202020!important;
+    color: #fff !important;
     h1 {
         margin: 3px;
-        color: #202020;
+        color: #fff;
     }
 }
 
@@ -256,7 +256,7 @@ div:target {
 }
 
 .container-cinema {
-    background-color: #0e0e0e;
+    background-color: #204568;
     padding: 20px;
     margin-bottom: 10px;
 }
@@ -268,7 +268,7 @@ div:target {
     color: #ffffff;
     font-weight: 500;
     span {
-        color: #636363;
+        color: #fff;
         font-size: 14px;
     }
     .class-idade {
@@ -280,12 +280,12 @@ div:target {
         margin-left: 10px;
     }
     .classificacao-L {
-        padding: 3px 5px 1px 5px!important;
+        padding: 3px 5px 1px 5px !important;
     }
     hr {
-        border-color: #575757;
+        border-color: #fff;
         margin: 5px 0 20px 0;
-        z-index: 0!important;
+        z-index: 0 !important;
     }
 }
 
@@ -308,10 +308,10 @@ div:target {
         margin-left: 10px;
     }
     .classificacao-L {
-        padding: 3px 5px 1px 5px!important;
+        padding: 3px 5px 1px 5px !important;
     }
     hr {
-        border-color: #000;
+        border-color: #4291c7;
         margin: 5px 0 20px 0;
     }
 }
@@ -398,7 +398,6 @@ div:target {
             background-color: none;
             color: #101010;
             border: none;
-            ;
         }
         span {
             text-decoration: none;
@@ -418,7 +417,7 @@ div:target {
 
 @media (max-width: 767px) {
     .body-programacao {
-        color: #000;
+        color: #4291c7;
     }
     .horario {
         -webkit-border-top-right-radius: 8px;
@@ -459,7 +458,6 @@ div:target {
             background-color: none;
             color: #101010;
             border: none;
-            ;
         }
         span {
             text-decoration: none;

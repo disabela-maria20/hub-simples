@@ -57,20 +57,19 @@
   }
 }
 
-.call-infos{
-cursor: pointer;
-position: absolute;
-left: 50%;
-background-color: #202020;
-transform: translate(-50%, -50%);
-    margin-top: -22px;
-    color: rgb(255, 255, 255);
-    padding: 10px 30px;
+.call-infos {
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  background-color: #202020;
+  transform: translate(-50%, -50%);
+  margin-top: -22px;
+  color: rgb(255, 255, 255);
+  padding: 10px 30px;
 
-    &:hover{
-        color: #dadada;
-    }
-
+  &:hover {
+    color: #dadada;
+  }
 }
 
 .mais-infos {
@@ -89,20 +88,14 @@ transform: translate(-50%, -50%);
     margin-top: 10px;
     font-size: 15px;
   }
-
-
 }
 
-.bar_top{
-
-    background-color: $color_destaque;
-    height: 40px;
+.bar_top {
+  background-color: $color_destaque;
+  height: 40px;
 }
 
 @media (max-width: 768px) {
-
-
-
   .header-filme {
     display: flex;
     flex-direction: column;
@@ -111,7 +104,6 @@ transform: translate(-50%, -50%);
     margin-top: 25px;
     padding: 10px 20px;
     width: 100%;
-
   }
 
   .topo-filme {
@@ -119,14 +111,14 @@ transform: translate(-50%, -50%);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #000;
+    background-color: #4291c7;
 
     height: 56vh;
     color: #fff;
     margin-bottom: 0px;
 
-    .infos-filme{
-      height:50vh;
+    .infos-filme {
+      height: 50vh;
     }
 
     .infos-filme-left {
@@ -154,37 +146,33 @@ transform: translate(-50%, -50%);
         font-size: 15px;
       }
     }
-
-
   }
-
-
 
   .mais-infos {
     background-color: #303030;
     color: #c2c2c2;
     padding: 15px;
-  
+
     .label {
       color: #fff;
       font-size: 25px;
       font-weight: 700;
       margin-top: 40px;
     }
-  
+
     .sinopse {
       margin-top: 10px;
       font-size: 15px;
     }
-  
-  .trailer{
+
+    .trailer {
       margin-top: 30px;
-  }
-  .arrow_box {
+    }
+    .arrow_box {
       position: relative;
       background: #303030;
-  }
-  .arrow_box:after {
+    }
+    .arrow_box:after {
       bottom: 120%;
       left: 50%;
       border: solid transparent;
@@ -197,10 +185,6 @@ transform: translate(-50%, -50%);
       border-bottom-color: #030405;
       border-width: 13px;
       margin-left: -13px;
+    }
   }
-  }
-
-
 }
-
-
