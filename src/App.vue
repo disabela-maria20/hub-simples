@@ -26,9 +26,9 @@
       <div id="creditos" @click="carregar()" class="cred_logos">
         <div class="container">
           <div class="row cred-logo">
-            <p>Acessibilidade: a exibição deste filme conta com suporte do aplicativo Mobiload - criado para
+            <p>Acessibilidade: a exibição deste filme conta com suporte do aplicativo PingPlay - criado para
               proporcionar acessibilidade completa disponibilizando os recursos da Audiodescrição, Legendas e LIBRAS -
-              Língua Brasileira de Sinais. <a href="https://gomav.co/m-load/" target="blank">Saiba mais</a>
+              Língua Brasileira de Sinais. <a href="https://pingplay.com.br/" target="blank">Saiba mais</a>
             </p>
 
           </div>
