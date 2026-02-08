@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/atonoturno/',
+    publicPath: '/kokuhooprecodaperfeicao/',
 };
