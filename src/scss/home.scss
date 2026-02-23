@@ -55,11 +55,11 @@ body {
     margin-top: 0px;
     position: fixed;
     // background-image: url("~@/assets/cartaz.jpg");
-    // object-fit: contain;
-    min-width: 55vh;
+    object-fit: cover;
+    min-width: 30vh;
     height: 90vh;
     img {
-        object-fit: contain;
+        object-fit: cover;
         object-position: top;
         width: 63vh;
         height: 100%;
