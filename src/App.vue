@@ -39,7 +39,7 @@
         <div class="container">
           <div class="links_footer">
             <div class="cp"> © 2025 SESSÃO VITRINE PETROBRAS E VITRINE FILMES</div>
-            <!-- <img src="./assets/bb.png" alt=""> -->
+            <img src="./assets/bb.png" alt="">
             <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
               Acessibilidade
             </div>
