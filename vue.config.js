@@ -1,3 +1,3 @@
 module.exports = {
-    publicPath: '/saopaulosociedadeanonima/',
+    publicPath: '/oreidainternet/',
 };
