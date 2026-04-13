@@ -26,9 +26,10 @@
       <div id="creditos" @click="carregar()" class="cred_logos">
         <div class="container">
           <div class="row cred-logo">
-            <p>Acessibilidade: a exibição deste filme conta com suporte do aplicativo PINGPLAY - criado para
+            <p>Acessibilidade: a exibição deste filme conta com suporte do aplicativo MOVIE READING - criado para
               proporcionar acessibilidade completa disponibilizando os recursos da Audiodescrição, Legendas e LIBRAS -
-              Língua Brasileira de Sinais. <a href="https://pingplay.com.br/" target="blank">Saiba mais</a>
+              Língua Brasileira de Sinais. <a href="https://www.moviereadingbrasil.com.br/#home" target="blank">Saiba
+                mais</a>
             </p>
 
           </div>
@@ -38,7 +39,7 @@
       <div class="footer_wrapper">
         <div class="container">
           <div class="links_footer">
-            <div class="cp"> © 2025 MANEQUIM FILMES</div>
+            <div class="cp"> © 2026 IMAGEM FILMES</div>
             <img src="./assets/bb.png" alt="">
             <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
               Acessibilidade

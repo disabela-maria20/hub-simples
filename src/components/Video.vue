@@ -3,7 +3,7 @@
     <img src="~@/assets/bg-trailer.jpg" @click="clicked = true">
   </div>
   <div v-else class="video embed-responsive embed-responsive-16by9">
-    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Es8kC3eUwcg?si=64pWHB3YJij0efJo"
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ZS0FdnnSKCA?si=fvgD7-5CdgW1UotK"
       title=" YouTube video player" frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
