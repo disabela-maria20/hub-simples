@@ -39,11 +39,7 @@
       <div class="footer_wrapper">
         <div class="container">
           <div class="links_footer">
-<<<<<<< HEAD
             <div class="cp"> © 2026 VITRINE PETROBRAS</div>
-=======
-            <div class="cp"> © 2026 SESSÃO VITRINE PETROBRAS</div>
->>>>>>> 124773795c158791176177736f93dd8b82ab9257
             <img src="./assets/bb.png" alt="">
             <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
               Acessibilidade
