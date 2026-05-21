@@ -39,8 +39,8 @@
       <div class="footer_wrapper">
         <div class="container">
           <div class="links_footer">
-            <div class="cp"> © 2026 A2 FILMES</div>
-           <!-- / <img src="./assets/bb.png" alt=""> -->
+            <div class="cp"> © 2026 MANEQUIM FILMES</div>
+            <img src="./assets/bb.png" alt="">
             <div class="btn-creditos" :class="{ credito_ativo: credito_ativo }" @click="carregar()">
               Acessibilidade
             </div>
