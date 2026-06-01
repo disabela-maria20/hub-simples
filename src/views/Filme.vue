@@ -3,7 +3,7 @@
     <div class="header">Teste header</div>
     <div class="conteudo">
       <div class="posters">
-        POster
+        Poster
       </div>
       <div class="filme_content">
         <div class="datas_content">
